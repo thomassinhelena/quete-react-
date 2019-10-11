@@ -4,7 +4,7 @@ import './Contact.css'
 function Contact(props) {
     return(
         <div className="Contact">
-            <img src={props.avatar}/>
+            <img alt="" src={props.avatar}/>
             <div>
             <h4>{props.name}</h4>
             {props.isOnline ?
